@@ -1,0 +1,215 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JDialogFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" resourceKey="Form.title"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="nodeLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="nodeComboBox" min="-2" pref="82" max="-2" attributes="0"/>
+              <EmptySpace pref="133" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="136" max="32767" attributes="0"/>
+              <Component id="cancelButton" min="-2" pref="64" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="nodePosOkButton" min="-2" pref="59" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="yLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="zLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="xLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="zFormattedTextField" max="32767" attributes="1"/>
+                  <Component id="yFormattedTextField" alignment="0" max="32767" attributes="1"/>
+                  <Component id="xFormattedTextField" alignment="0" min="-2" pref="144" max="-2" attributes="1"/>
+              </Group>
+              <EmptySpace pref="95" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="setRandomLocationCheckBox" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="110" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="setRandomLocationForAllNodesCheckBox" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="26" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nodeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nodeComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="setRandomLocationCheckBox" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="9" max="32767" attributes="0"/>
+              <Component id="setRandomLocationForAllNodesCheckBox" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="xLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="xFormattedTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="yLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="yFormattedTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="zLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="zFormattedTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nodePosOkButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cancelButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="nodeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="nodeLabel.text"/>
+        <Property name="name" type="java.lang.String" value="nodeLabel" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="nodeComboBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor" postCode="for(int i=0;i&lt;50;i++)&#xa;    {&#xa;    if(NewProject.obnm.getNodename(i)!=null)&#xa;        nodeComboBox.addItem(NewProject.obnm.getNodename(i));&#xa;    }">
+          <Connection code="new javax.swing.DefaultComboBoxModel()" type="code"/>
+        </Property>
+        <Property name="name" type="java.lang.String" value="nodeComboBox" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="nodeComboBoxItemStateChanged"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="xLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="xLabel.text"/>
+        <Property name="name" type="java.lang.String" value="xLabel" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="yLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="yLabel.text"/>
+        <Property name="name" type="java.lang.String" value="yLabel" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="zLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="zLabel.text"/>
+        <Property name="name" type="java.lang.String" value="zLabel" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="xFormattedTextField">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="xFormattedTextField.text"/>
+        <Property name="name" type="java.lang.String" value="xFormattedTextField" noResource="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JFormattedTextField(new DecimalFormat(&quot;#.00&quot;))"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="xFormattedTextField.setValue(NewProject.obnpd.getXp(nodeComboBox.getSelectedIndex()));"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="yFormattedTextField">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="yFormattedTextField" noResource="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JFormattedTextField(new DecimalFormat(&quot;#.00&quot;))"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="yFormattedTextField.setValue(NewProject.obnpd.getYp(nodeComboBox.getSelectedIndex()));"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="zFormattedTextField">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="zFormattedTextField.text"/>
+        <Property name="name" type="java.lang.String" value="zFormattedTextField" noResource="true"/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_CreateCodeCustom" type="java.lang.String" value="new javax.swing.JFormattedTextField(new DecimalFormat(&quot;#.00&quot;))"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="zFormattedTextField.setValue(NewProject.obnpd.getZp(nodeComboBox.getSelectedIndex()));"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JButton" name="nodePosOkButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="nodePosOkButton.text"/>
+        <Property name="name" type="java.lang.String" value="nodePosOkButton" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nodePosOkButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="cancelButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="cancelButton.text"/>
+        <Property name="name" type="java.lang.String" value="cancelButton" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cancelButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="setRandomLocationCheckBox">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="setRandomLocationCheckBox.text"/>
+        <Property name="name" type="java.lang.String" value="setRandomLocationCheckBox" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="setRandomLocationCheckBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="if (NewProject.obnpd.getRandom(nodeComboBox.getSelectedIndex())) {&#xa;            xFormattedTextField.setValue(xd[nodeComboBox.getSelectedIndex()]);&#xa;            yFormattedTextField.setValue(yd[nodeComboBox.getSelectedIndex()]);&#xa;            zFormattedTextField.setValue(zd[nodeComboBox.getSelectedIndex()]);&#xa;            xFormattedTextField.setEnabled(false);&#xa;            yFormattedTextField.setEnabled(false);&#xa;            zFormattedTextField.setEnabled(false);&#xa;            setRandomLocationCheckBox.setSelected(true);&#xa;        }"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="setRandomLocationForAllNodesCheckBox">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="setRandomLocationForAllNodesCheckBox.text"/>
+        <Property name="name" type="java.lang.String" value="setRandomLocationForAllNodesCheckBox" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="setRandomLocationForAllNodesCheckBoxActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="setRandomLocationForAllNodesCheckBox.setEnabled(false);"/>
+        <AuxValue name="JavaCodeGenerator_ListenersCodePost" type="java.lang.String" value="if(NewProject.obnpd.isRandomAll()){&#xa;            xFormattedTextField.setEnabled(false);&#xa;            yFormattedTextField.setEnabled(false);&#xa;            zFormattedTextField.setEnabled(false);&#xa;            nodeComboBox.setEnabled(false);&#xa;            random[nodeComboBox.getSelectedIndex()] = false;&#xa;            NewProject.obnmd.setRandomAll(true);&#xa;            setRandomLocationForAllNodesCheckBox.setEnabled(true);&#xa;            setRandomLocationForAllNodesCheckBox.setSelected(true);&#xa;            setRandomLocationCheckBox.setSelected(true);&#xa;}"/>
+      </AuxValues>
+    </Component>
+  </SubComponents>
+</Form>
